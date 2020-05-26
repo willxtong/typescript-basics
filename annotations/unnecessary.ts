@@ -15,8 +15,8 @@ const numbers: number[] = [1, 2, 3];
 const now: Date = new Date();
 
 // custom classes
-class Car {}
-const car: Car = new Car();
+class Thing {}
+const thing: Thing = new Thing();
 
 // object literal (kinda gross)
 const point: { x: number; y: number } = { x: 10, y: 20 };

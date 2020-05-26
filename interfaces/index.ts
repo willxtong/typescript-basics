@@ -1,4 +1,4 @@
-interface Vehicle {
+interface Car {
   name: string;
   year: number;
   broken: boolean;
@@ -6,10 +6,10 @@ interface Vehicle {
 
 const oldCivic = { name: 'civic', year: 2000, broken: true };
 
-const printVehicle = (vehicle: Vehicle): void => {
-  console.log(`Name: ${vehicle.name}`);
-  console.log(`Year: ${vehicle.year}`);
-  console.log(`Is it broken? ${vehicle.broken}`);
+const printCar = (car: Car): void => {
+  console.log(`Name: ${car.name}`);
+  console.log(`Year: ${car.year}`);
+  console.log(`Is it broken? ${car.broken}`);
 };
 
-printVehicle(oldCivic);
+printCar(oldCivic);
