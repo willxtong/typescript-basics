@@ -1,8 +1,7 @@
 import { CsvFileReader } from './CsvFileReader';
 import { MatchResult } from '../common/MatchResult';
 import { dateStrToDate } from '../common/utils';
-
-type MatchData = [Date, string, string, number, number, MatchResult, string];
+import { MatchData } from '../common/MatchData';
 
 export class MatchReader extends CsvFileReader<MatchData> {
   mapRow(row: string[]): MatchData {
