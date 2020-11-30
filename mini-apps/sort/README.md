@@ -1,3 +1,3 @@
 # Sort Mini-App
 
-A tiny project that allows sorting of arrays, strings and linked lists.
+A tiny project that bubble sorts arrays, strings and linked lists.
