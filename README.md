@@ -1,2 +1,2 @@
 # typescript-basics
-Mini-apps for learning TypeScript
+Just some code snippets and mini-apps for learning TypeScript
